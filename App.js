@@ -7,7 +7,7 @@ import MealList from './components/MealList';
 import Button from './components/ui/Button';
 import { useMealContext } from './context/DailyMealContext';
 
-// Component that uses the MealContext
+
 const MealPlannerContent = () => {
   const { setModalIsVisible } = useMealContext();
 
@@ -41,7 +41,6 @@ const MealPlannerContent = () => {
   );
 };
 
-// Main App component that wraps everything in the context provider
 export default function App() {
   return (
     <DailyMealProvider>
